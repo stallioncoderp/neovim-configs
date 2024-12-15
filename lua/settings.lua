@@ -1,0 +1,13 @@
+vim.o.number = true				-- show line numbers
+vim.o.relativenumber = true			-- Relative line numbers
+vim.o.tabstop = 4				-- tab width
+vim.o.shiftwidth = 4				-- auto-indent width
+vim.o.expandtab = true				-- converts tabs to spaces
+vim.o.cursorline = true				-- highlight the current line
+vim.o.wrap = false				-- disable line wrapping
+vim.o.termguicolors = true			-- enable true colors
+vim.o.scrolloff = 8				-- keep 8 lines visible above/below cursor
+vim.o.sidescrolloff = 8				-- keep 8 coloumns visible left/right of cursor
+vim.o.splitright = true				-- split to the right by default
+vim.o.splitbelow = true				-- split below by default
+vim.cmd([[set clipboard+=unnamedplus]]) 	-- use system clipboard
